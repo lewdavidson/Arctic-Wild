@@ -1,11 +1,15 @@
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
 }
 img {
   max-width: 100%;
 }
 body {
   font-family: 'Open Sans', sans-serif;
+  height: 700vh;
+  background: #e6e6e0;
+  overflow-x: hidden;
 }
 header {
     background: url(../img/hero.jpg) no-repeat center;
@@ -143,6 +147,8 @@ button.btn {
     text-transform: uppercase;
     border: 0;
     position: relative;
+    font-family: 'Fjalla One';
+    letter-spacing: 2px;
 }
 
 header button {
@@ -198,6 +204,8 @@ ul {
 
 .mid-nav {
     background: #353535;
+    width: 100%;
+    z-index: 1;
 }
 .gallery {
     display: flex;
@@ -216,7 +224,7 @@ img.gallery-icon {
     text-transform:  uppercase;
 }
 
-p::before {
+.gallery p::before {
     border: orange 4px solid;
     width: 20px;
     height:  20px;
@@ -333,4 +341,71 @@ li#more {
   .image img {
       height: 247px;
   }
+}
+
+.half {
+    width: 50%;
+    position: relative;
+    padding-top: 100px;
+}
+
+.half img {
+    left: 100%;
+    position: absolute;
+    top: 0;
+    max-width: none;
+}
+
+span.pre-tag {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-family: 'Fjalla One';
+    color: #a7a7a7;
+    letter-spacing: 3px;
+}
+
+.half h2 {
+    font-size: 3em;
+    margin: 0;
+    color: #4a4a4a;
+    padding-bottom: 30px;
+    margin-bottom: 41px;
+    position: relative;
+}
+
+.half p {
+    font-size: 1.1em;
+    line-height: 1.6em;
+    color: #636363;
+}
+
+a.big-link {
+    color: #4a4a4a;
+    font-weight: bold;
+    margin-left: 30px;
+    border-bottom: 1px dashed #9a9a9a;
+    padding-bottom: 6px;
+}
+
+.orange {
+  color: #dc7625;
+}
+
+.half .btn {
+    margin-top: 50px;
+}
+
+.half h2:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    width: 17%;
+    height: 5px;
+    background: #bbb;
+    left: 0;
+}
+
+hr {
+  margin-top: 100px;
+  border-width: 2px;
 }
