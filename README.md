@@ -1,21 +1,24 @@
-# Arctic-Wild
-Website Clone made using Flexbox and SASS
-### By Lew Davidson and Colin Whorf
+# Artic-Wild
+A clone of [this website](https://arcticwild.com/) using flexbox and JavaScript.
 
-Highlights:
-* Use of flexbox for styling the gallery section 
-* Layering multiple images 
-* Use of JavaScript to make a sticky nav
 
-Description:
+## Getting Started
 
-We were tasked with replicating [this website](https://arcticwild.com/) using Flexbox and SASS in an 8 hour period. Our process was mythotical and well organized.
+* clone the repo
+* open in the browser of your choice
 
-Technologies Used:
+### Prerequisites
 
-* CSS
-* HTML
-* Atom - Editor
-* JavaScript
+```
+A good code editor - I use Atom
+```
 
-This project was made at Epicodus by two students.
+## Authors
+
+* **Lew Davidson**  - [Lew Davidson](https://github.com/lewdavidson)
+* **Colin Worf**  - [Colin Worf](https://github.com/cworf)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This proaject was made by two students at Epicodus.
