@@ -1,4 +1,4 @@
-# Artic-Wild
+# Arctic-Wild
 A clone of [this website](https://arcticwild.com/) using flexbox and JavaScript.
 
 Previews:
