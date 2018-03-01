@@ -1,17 +1,20 @@
 # Artic-Wild
 A clone of [this website](https://arcticwild.com/) using flexbox and JavaScript.
 
+Previews:
+
+![photo1](Arctic1.png)
+![photo2](Arctic2.png)
+
 
 ## Getting Started
 
-* clone the repo
-* open in the browser of your choice
+* open terminal
+* $ cd Desktop
+* $ git clone https://github.com/lewdavidson/Arctic-Wild.git
+* $ cd Arctic-Wild
+* $ open index.html
 
-### Prerequisites
-
-```
-A good code editor - I use Atom
-```
 
 ## Authors
 
@@ -21,4 +24,4 @@ A good code editor - I use Atom
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-This proaject was made by two students at Epicodus.
+This project was made by two students at Epicodus.
